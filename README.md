@@ -1,6 +1,6 @@
 # Fabric Utility Mod
 
-A client-side Minecraft Fabric mod for version 1.21.1 that adds Flight and ESP (Extra Sensory Perception) features.
+A client-side Minecraft Fabric mod for version 1.21.10 that adds Flight and ESP (Extra Sensory Perception) features.
 
 ## Features
 
@@ -23,12 +23,12 @@ A client-side Minecraft Fabric mod for version 1.21.1 that adds Flight and ESP (
 ## Installation
 
 ### Prerequisites
-- Minecraft 1.21.1
-- Fabric Loader 0.16.9 or higher
-- Fabric API 0.107.0+1.21.1 or higher
+- Minecraft 1.21.10
+- Fabric Loader 0.16.14 or higher
+- Fabric API 0.110.0+1.21.10 or higher
 
 ### Steps
-1. Install Fabric Loader for Minecraft 1.21.1 from [FabricMC](https://fabricmc.net/use/)
+1. Install Fabric Loader for Minecraft 1.21.10 from [FabricMC](https://fabricmc.net/use/)
 2. Download Fabric API from [CurseForge](https://www.curseforge.com/minecraft/mc-mods/fabric-api) or [Modrinth](https://modrinth.com/mod/fabric-api)
 3. Place both Fabric API and this mod's JAR file in your `.minecraft/mods` folder
 4. Launch Minecraft with the Fabric profile
@@ -81,9 +81,9 @@ src/main/java/com/arise/fabricutility/
 ```
 
 ### Dependencies
-- Minecraft 1.21.1
-- Fabric Loader 0.16.9+
-- Fabric API 0.107.0+1.21.1
+- Minecraft 1.21.10
+- Fabric Loader 0.16.14+
+- Fabric API 0.110.0+1.21.10
 - Java 21
 
 ### Mixins

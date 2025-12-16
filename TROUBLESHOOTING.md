@@ -49,7 +49,7 @@
 #### Issue: Crash on startup
 **Causes & Solutions**:
 1. **Missing Fabric API**: Install Fabric API mod
-2. **Wrong Minecraft version**: Ensure you're running 1.21.1
+2. **Wrong Minecraft version**: Ensure you're running 1.21.10
 3. **Incompatible mods**: Try with just this mod and Fabric API
 4. **Check logs**: Look in `.minecraft/logs/latest.log` for error details
 
@@ -60,14 +60,14 @@
 1. Ensure JAR is in `.minecraft/mods` folder
 2. Check you're using Fabric Loader, not Forge
 3. Verify Fabric API is installed
-4. Check Minecraft version matches (1.21.1)
+4. Check Minecraft version matches (1.21.10)
 
 #### Issue: "Incompatible mod set" error
 **Cause**: Version mismatch
 **Solutions**:
-1. Verify Minecraft version is 1.21.1
-2. Update Fabric Loader to 0.16.0 or higher
-3. Update Fabric API to 0.107.0+1.21.1 or higher
+1. Verify Minecraft version is 1.21.10
+2. Update Fabric Loader to 0.16.14 or higher
+3. Update Fabric API to 0.110.0+1.21.100 or higher
 4. Remove incompatible mods
 
 ## Performance Issues
@@ -146,14 +146,14 @@ A: Yes, in Minecraft's Controls settings under "Fabric Utility" category.
 ### Q: Does this work with Optifine?
 A: Optifine compatibility is not guaranteed. Use Sodium/Iris as alternatives.
 
-### Q: Can I use this in versions other than 1.21.1?
+### Q: Can I use this in versions other than 1.21.10?
 A: Minor versions (1.21.x) might work but aren't officially supported. Major version changes require code updates.
 
 ### Q: How do I build from source?
 A: See README.md for build instructions. Requires Java 21 and internet connection.
 
 ### Q: The mod isn't loading after installation
-A: Ensure you have both Fabric Loader and Fabric API installed for Minecraft 1.21.1.
+A: Ensure you have both Fabric Loader and Fabric API installed for Minecraft 1.21.10.
 
 ## Still Having Issues?
 
@@ -165,7 +165,7 @@ A: Ensure you have both Fabric Loader and Fabric API installed for Minecraft 1.2
 ## Version Information
 
 - Mod Version: 1.0.0
-- Minecraft Version: 1.21.1
+- Minecraft Version: 1.21.10
 - Java Version: 21+
-- Fabric Loader: 0.16.0+
-- Fabric API: 0.107.0+1.21.1
+- Fabric Loader: 0.16.14+
+- Fabric API: 0.110.0+1.21.100

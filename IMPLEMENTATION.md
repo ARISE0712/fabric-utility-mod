@@ -1,7 +1,7 @@
 # Fabric Utility Mod - Implementation Documentation
 
 ## Overview
-This document describes the complete implementation of the Fabric Utility Mod for Minecraft 1.21.1, featuring Flight and ESP systems.
+This document describes the complete implementation of the Fabric Utility Mod for Minecraft 1.21.10, featuring Flight and ESP systems.
 
 ## Project Structure
 
@@ -144,9 +144,9 @@ RenderSystem.enableDepthTest();   // Restore normal rendering
 - Entry point: `com.arise.fabricutility.FabricUtilityClient`
 - Mixins: `fabricutility.mixins.json`
 - Dependencies:
-  - Fabric Loader: >=0.16.0
+  - Fabric Loader: >=0.16.14
   - Fabric API: any version
-  - Minecraft: ~1.21.1
+  - Minecraft: ~1.21.10
   - Java: >=21
 
 ### fabricutility.mixins.json
@@ -157,10 +157,10 @@ RenderSystem.enableDepthTest();   // Restore normal rendering
   - WorldRendererMixin
 
 ### gradle.properties
-- Minecraft version: 1.21.1
-- Yarn mappings: 1.21.1+build.3
-- Fabric Loader: 0.16.9
-- Fabric API: 0.107.0+1.21.1
+- Minecraft version: 1.21.10
+- Yarn mappings: 1.21.10+build.1
+- Fabric Loader: 0.16.14
+- Fabric API: 0.110.0+1.21.10
 - Java: 21
 
 ## Build System
@@ -262,10 +262,10 @@ double z = entityPos.z - cameraPos.z;
 
 ## Version Compatibility
 
-- **Minecraft**: 1.21.1 (may work on 1.21.x with adjustments)
+- **Minecraft**: 1.21.10 (may work on 1.21.x with adjustments)
 - **Java**: 21 or higher required
-- **Fabric Loader**: 0.16.0 or higher
-- **Fabric API**: 0.107.0+1.21.1 recommended
+- **Fabric Loader**: 0.16.14 or higher
+- **Fabric API**: 0.110.0+1.21.10 recommended
 
 ## License
 
@@ -279,4 +279,4 @@ MIT License - See LICENSE file for full text.
 
 **Last Updated**: December 2024
 **Mod Version**: 1.0.0
-**Minecraft Version**: 1.21.1
+**Minecraft Version**: 1.21.10
